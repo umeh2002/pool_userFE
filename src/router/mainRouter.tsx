@@ -26,6 +26,11 @@ const mainRouter = createBrowserRouter([
         element: <Send/>,
       },
       {
+        path: "/:userID/:friendID/send-request",
+        index: true,
+        element: <Send/>,
+      },
+      {
         path: "/profile",
         index: true,
         element: <Profile/>,
