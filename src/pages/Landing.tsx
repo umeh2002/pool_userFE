@@ -13,7 +13,7 @@ const Landing = () => {
     sendFriendRequst(id, state._id)
   }
   return (
-    <div className="w-full min-h-[100vh] bg-gray-100 flex justify-center items-center">
+    <div className="w-full min-h-[100vh] bg-gray-100 flex justify-center ">
       <div className="w-[90%] h-full flex flex-wrap justify-center">
       {
         allPool?.map((el:any)=>(
