@@ -6,10 +6,10 @@ export default {
   ],
   theme: {
     extend: {
-      screen:{
-        small:"768px",
-        medium:"1440px"
-      }
+      screens: {
+        medium: { max: "1440px" },
+        small: { max: "768px" },
+      },
     },
   },
   plugins: [],
