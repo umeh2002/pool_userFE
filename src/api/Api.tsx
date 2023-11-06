@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const url: string = "http://localhost:3474/api";
-// const url: string = "https://pool-user-challenge.onrender.com/api";
+// const url: string = "http://localhost:3474/api";
+const url: string = "https://pool-user-challenge.onrender.com/api";
 
 export const createUser = async (data: any) => {
   try {
